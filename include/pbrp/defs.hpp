@@ -20,6 +20,8 @@ using inning_t		= uint32_t;
 using score_t		= uint32_t;
 using count_t		= uint32_t;
 using playerID_t	= uint32_t;
+using teamID_t		= uint32_t;
+using stadiumID_t	= uint32_t;
 
 }
 

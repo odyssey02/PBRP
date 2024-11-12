@@ -23,4 +23,16 @@ const InGameField* GameDataUnit::GetInGameField() const {
 	return static_cast<const InGameField*>(this);
 }
 
+InGameField* GameDataUnit::DEBUG__GetInGameField() {
+	return static_cast<InGameField*>(this);
+}
+
+const PreGameField* GameDataUnit::GetPreGameField() const {
+	return static_cast<const PreGameField*>(this);
+}
+
+PreGameField* GameDataUnit::DEBUG__GetPreGameField() {
+	return static_cast<PreGameField*>(this);
+}
+
 }
